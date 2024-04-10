@@ -1,0 +1,75 @@
+
+/* FONT */
+.fc-light-100 {
+    color:var(--clr-light-100);
+}
+
+.fc-dark {
+    color:var(--clr-dark);
+}
+
+.fc-primary-100 {
+    color:var(--clr-primary-100);
+}
+
+.fc-orange-100 {
+    color:var(--clr-orange-100);
+}
+
+.fc-green-100 {
+    color:var(--clr-green-100);
+}
+
+.fw-regular {
+    font-weight: var(--fw-regular);
+}
+
+.fw-medium {
+    font-weight: var(--fw-medium);
+}
+
+.fw-bold {
+    font-weight: var(--fw-bold);
+}
+
+.fw-black {
+    font-weight: var(--fw-black);
+}
+
+/* BACKGROUND */
+.bg-primary-100 {
+    background-color: var(--clr-primary-100);
+}
+
+.bg-orange-100 {
+    background-color: var(--clr-orange-100);
+}
+
+.bg-green-100 {
+    background-color: var(--clr-green-100);
+}
+
+.bg-purple-100 {
+    background-color: var(--clr-purple-100);
+}
+
+.bg-gradient-green {
+    background: linear-gradient(to left, var(--clr-green-50), var(--clr-green-100));
+}
+
+.bg-gradient-orange {
+    background: linear-gradient(to left, var(--clr-orange-50), var(--clr-orange-100));
+}
+
+.bg-gradient-purple {
+    background: linear-gradient(to left, var(--clr-purple-50), var(--clr-purple-100));
+}
+
+/* COMPONENTS */
+.bar {
+    width: 23px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+

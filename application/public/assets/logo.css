@@ -1,0 +1,5 @@
+.logo {
+    font-size:var(--fs-600);
+    letter-spacing: 21.4%;
+    font-weight: var(--fw-black);
+}
