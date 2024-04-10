@@ -1,0 +1,17 @@
+services:
+  app:
+    build:
+      args: 
+        HOST_USER_ID: ${HOST_USER_ID}
+      dockerfile: Dockerfile
+    environment:
+      HOST_USER_ID: ${HOST_USER_ID}
+    volumes:
+      - ./application:/var/www/html/
+  web:
+    image: nginx:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - ./.docker/nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf
+      - ./application:/var/www/html/
