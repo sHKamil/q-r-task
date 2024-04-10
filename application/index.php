@@ -1,6 +1,6 @@
 <?php
 
-function dd($dump) {
+function dd($dump) { // For development
     return die(var_dump($dump));
 }
 

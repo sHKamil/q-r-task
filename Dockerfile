@@ -11,9 +11,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         zlib1g-dev \
         libxml2-dev \
         libzip-dev \
-    && docker-php-ext-install \
+        && docker-php-ext-install \
         zip \
-        intl 
+        intl \
+		mysqli \
+        pdo pdo_mysql
   
 
 COPY application/ /var/www/html
